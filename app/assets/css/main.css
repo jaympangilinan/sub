@@ -1,0 +1,43 @@
+
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #F5F8F6 !important;
+}
+
+.v-application {
+  background: #F5F8F6 !important;
+}
+
+.main-content {
+  padding: 30px;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.sidebar-brand {
+  min-height: 90px;
+}
+
+.v-navigation-drawer {
+  border-right: 1px solid #edf0ee !important;
+}
+
+.v-list-item {
+  margin-bottom: 5px;
+}
+
+.v-list-item--active {
+  background: #e8f5ef;
+  font-weight: 600;
+}
+
+.v-card {
+  border-color: #e8eeea !important;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    padding: 16px;
+  }
+}

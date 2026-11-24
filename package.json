@@ -1,0 +1,23 @@
+{
+  "name": "subdivision-weather-monitor",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@mdi/font": "^7.4.47",
+    "firebase": "^13.4.0",
+    "nuxt": "^4.6.4",
+    "vue": "^3.5.45",
+    "vue-router": "^5.4.0",
+    "vuetify": "^4.3.4"
+  },
+  "devDependencies": {
+    "vuetify-nuxt-module": "^1.0.0-rc.6"
+  }
+}
